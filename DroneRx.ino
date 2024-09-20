@@ -20,7 +20,7 @@ float Gx, Gy, Gz;
 
 // RF24 (Receiver)
 RF24 radio(7, 8);  // CE and CSN pins
-const uint64_t pipeIn = 0xE8E8F0F0E1LL;  // Same as transmitter
+const uint64_t pipeIn = 0xE8E8F0F0E8E8;
 
 // The data struct received from the transmitter
 struct MyData {
