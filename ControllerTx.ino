@@ -40,7 +40,6 @@ int mapJoystickValues(int val, int lower, int middle, int upper, bool reverse) {
   } else {
     val = map(val, middle, upper, 128, 255);  // Map upper values to range 128-255
   }
-  return (reverse ? 255 - val : val);  // Optionally reverse the output
 }
 
 void loop() {
